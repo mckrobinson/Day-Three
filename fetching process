@@ -1,3 +1,5 @@
+###Here is the fetching process where you are using the NLTK library. You will fetch the story text with urllib.
+
 start with
 >>>import nltk
 >>>from urllib import request
@@ -5,9 +7,11 @@ start with
 >>>response = request.urlopen(url)
 >>>raw = response.read().decode('utf8')
 >>>type(raw)
+###What is a string?
 <class'str'>
 >>>tokens = nltk.word_tokenize(raw)
 >>>type(tokens)
+###What is a list?
 <class 'list'>
 >>>lens(tokens)
 134214
