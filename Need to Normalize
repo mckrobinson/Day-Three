@@ -1,1 +1,11 @@
-
+I analyzed the text The Odyssey by Homer using nltk library
+The process of normalizing text
+Start
+>>>tokens[:3]
+['Provided', 'by', 'The']
+>>>tokens = nltk.word_tokenize(raw)
+>>>tokens = [w.lower() for w in tokens if w.isalpha()]
+>>>tokens[:3]
+['provided', 'by', 'the']
+>>>len(tokens)
+116525
