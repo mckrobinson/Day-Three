@@ -1,0 +1,13 @@
+start with
+>>>import nltk
+>>>from urllib import request
+>>>url = "http://classics.mit.edu/Homer/odyessy.mb.txt"
+>>>response = request.urlopen(url)
+>>>raw = response.read().decode('utf8')
+>>>type(raw)
+<class'str'>
+>>>tokens = nltk.word_tokenize(raw)
+>>>type(tokens)
+<class 'list'>
+>>>lens(tokens)
+134214
