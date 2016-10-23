@@ -1,1 +1,7 @@
 ###You will analyze the frequency of your tokens in this file https://github.com/CrimsonPresident/talks/blob/master/juliuscaaesargallicwas/JuliusCaesarGallicCampaign.ipynb
+
+>>> fdist1 = nltk.FreqDist(tokens)
+>>> print(fdist1)
+<FreqDist with 7178 samples and 134214 outcomes>
+>>> fdist1.N()
+134214
